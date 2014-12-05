@@ -5,7 +5,13 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LabaOs2", "LabaOs2\LabaOs2.vcxproj", "{A8C9A5B8-1ED6-424A-B39B-640D413E3F5D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication2", "ConsoleApplication2\ConsoleApplication2.vcxproj", "{33FDAD3C-36F4-40D7-978C-B71991015EC3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RSA", "ConsoleApplication2\ConsoleApplication2.vcxproj", "{33FDAD3C-36F4-40D7-978C-B71991015EC3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RSADLL", "RSADLL\RSADLL.vcxproj", "{5D46C3EB-223A-46A8-B803-477AF986E6EB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RSAdllDynamic", "RSAdllDynamic\RSAdllDynamic.vcxproj", "{5F25868E-4DA0-4820-9C74-30921118C271}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RSAdllStatically", "RSAdllStatically\RSAdllStatically.vcxproj", "{0D6DF217-1AAA-40F8-BCB2-9D5BBF5CDA49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{33FDAD3C-36F4-40D7-978C-B71991015EC3}.Debug|Win32.Build.0 = Debug|Win32
 		{33FDAD3C-36F4-40D7-978C-B71991015EC3}.Release|Win32.ActiveCfg = Release|Win32
 		{33FDAD3C-36F4-40D7-978C-B71991015EC3}.Release|Win32.Build.0 = Release|Win32
+		{5D46C3EB-223A-46A8-B803-477AF986E6EB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5D46C3EB-223A-46A8-B803-477AF986E6EB}.Debug|Win32.Build.0 = Debug|Win32
+		{5D46C3EB-223A-46A8-B803-477AF986E6EB}.Release|Win32.ActiveCfg = Release|Win32
+		{5D46C3EB-223A-46A8-B803-477AF986E6EB}.Release|Win32.Build.0 = Release|Win32
+		{5F25868E-4DA0-4820-9C74-30921118C271}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5F25868E-4DA0-4820-9C74-30921118C271}.Debug|Win32.Build.0 = Debug|Win32
+		{5F25868E-4DA0-4820-9C74-30921118C271}.Release|Win32.ActiveCfg = Release|Win32
+		{5F25868E-4DA0-4820-9C74-30921118C271}.Release|Win32.Build.0 = Release|Win32
+		{0D6DF217-1AAA-40F8-BCB2-9D5BBF5CDA49}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D6DF217-1AAA-40F8-BCB2-9D5BBF5CDA49}.Debug|Win32.Build.0 = Debug|Win32
+		{0D6DF217-1AAA-40F8-BCB2-9D5BBF5CDA49}.Release|Win32.ActiveCfg = Release|Win32
+		{0D6DF217-1AAA-40F8-BCB2-9D5BBF5CDA49}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
